@@ -3,8 +3,6 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 import userRouter from "./routes/userRoute.js";
-
-
 dotenv.config();
 const app = express();
 app.use(express.json());
